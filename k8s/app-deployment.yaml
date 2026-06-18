@@ -19,7 +19,7 @@ spec:
       containers:
       - name: adventure
 
-        image: YOUR_DOCKER_IMAGE
+        image: saikiran2233/magicworld:latest
 
         env:
         - name: DB_HOST
