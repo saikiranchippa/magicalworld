@@ -1,0 +1,9 @@
+CREATE DATABASE adventure;
+
+USE adventure;
+
+CREATE TABLE explorers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    joined_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
